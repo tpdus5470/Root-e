@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DIYSF.iml" filepath="$PROJECT_DIR$/.idea/DIYSF.iml" group="DIYSF" />
+      <module fileurl="file://$PROJECT_DIR$/app/DIYSF-app.iml" filepath="$PROJECT_DIR$/app/DIYSF-app.iml" group="DIYSF/app" />
+      <module fileurl="file://$PROJECT_DIR$/Root-e-DIYSF.iml" filepath="$PROJECT_DIR$/Root-e-DIYSF.iml" group="DIYSF" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="DIYSF/app" />
+    </modules>
+  </component>
+</project>

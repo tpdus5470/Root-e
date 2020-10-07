@@ -1,0 +1,196 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.DIYSF"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:6:5-74
+12-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:9:5-66
+15-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:9:22-64
+16
+17    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+18    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.firebase:firebase-database:18.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\018f300ca35f26390150e81b80a8bdec\jetified-firebase-database-18.0.1\AndroidManifest.xml:25:5-79
+19-->[com.google.firebase:firebase-database:18.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\018f300ca35f26390150e81b80a8bdec\jetified-firebase-database-18.0.1\AndroidManifest.xml:25:22-76
+20
+21    <application
+21-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:11:5-55:19
+22        android:allowBackup="true"
+22-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:12:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\130f40789f3addc98db185e1dbe16726\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/lamda"
+25-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:13:9-37
+26        android:label="@string/app_name"
+26-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:14:9-41
+27        android:networkSecurityConfig="@xml/network_security_config"
+27-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:18:9-69
+28        android:requestLegacyExternalStorage="true"
+28-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:19:9-52
+29        android:roundIcon="@mipmap/lamda_round"
+29-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:15:9-48
+30        android:supportsRtl="true"
+30-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:16:9-35
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:17:9-40
+32        <activity
+32-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:20:9-23:51
+33            android:name="com.example.DIYSF.LoadingActivity"
+33-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:21:13-44
+34            android:screenOrientation="portrait"
+34-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:23:13-49
+35            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+35-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:22:13-71
+36        <activity
+36-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:24:9-33:20
+37            android:name="com.example.DIYSF.MainActivity"
+37-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:25:13-41
+38            android:label="@string/app_name"
+38-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:26:13-45
+39            android:screenOrientation="portrait"
+39-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:28:13-49
+40            android:theme="@style/AppTheme.NoActionBar" >
+40-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:27:13-56
+41            <intent-filter>
+41-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:29:13-32:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:30:17-69
+42-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:30:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:31:17-77
+44-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:31:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:34:9-36:20
+48            android:name="com.example.DIYSF.SettingActivity"
+48-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:34:19-50
+49            android:screenOrientation="portrait" >
+49-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:35:13-49
+50        </activity>
+51        <activity
+51-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:37:9-40:20
+52            android:name="com.example.DIYSF.DeviceListActivity"
+52-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:37:19-53
+53            android:screenOrientation="portrait"
+53-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:38:13-49
+54            android:theme="@android:style/Theme.DeviceDefault.Dialog" >
+54-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:39:13-70
+55        </activity>
+56        <activity
+56-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:41:9-44:20
+57            android:name="com.example.DIYSF.PlantListActivity"
+57-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:41:19-52
+58            android:screenOrientation="portrait"
+58-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:42:13-49
+59            android:theme="@android:style/Theme.DeviceDefault.Dialog" >
+59-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:43:13-70
+60        </activity>
+61        <activity
+61-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:45:9-48:20
+62            android:name="com.example.DIYSF.PlantRevise"
+62-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:45:19-46
+63            android:screenOrientation="portrait"
+63-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:46:13-49
+64            android:theme="@android:style/Theme.DeviceDefault.Dialog" >
+64-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:47:13-70
+65        </activity>
+66        <activity
+66-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:49:9-51:20
+67            android:name="com.example.DIYSF.GraphActivity"
+67-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:49:19-48
+68            android:screenOrientation="portrait" >
+68-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:50:13-49
+69        </activity>
+70        <activity
+70-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:52:9-54:20
+71            android:name="com.example.DIYSF.CalendarActivity"
+71-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:52:19-51
+72            android:screenOrientation="portrait" >
+72-->C:\Users\user\Desktop\git\Root-e\DIYSF\app\src\main\AndroidManifest.xml:53:13-49
+73        </activity>
+74
+75        <service
+75-->[com.google.firebase:firebase-database:18.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\018f300ca35f26390150e81b80a8bdec\jetified-firebase-database-18.0.1\AndroidManifest.xml:29:9-35:19
+76            android:name="com.google.firebase.components.ComponentDiscoveryService"
+76-->[com.google.firebase:firebase-database:18.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\018f300ca35f26390150e81b80a8bdec\jetified-firebase-database-18.0.1\AndroidManifest.xml:30:13-84
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-database:18.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\018f300ca35f26390150e81b80a8bdec\jetified-firebase-database-18.0.1\AndroidManifest.xml:31:13-37
+78            <meta-data
+78-->[com.google.firebase:firebase-database:18.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\018f300ca35f26390150e81b80a8bdec\jetified-firebase-database-18.0.1\AndroidManifest.xml:32:13-34:85
+79                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+79-->[com.google.firebase:firebase-database:18.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\018f300ca35f26390150e81b80a8bdec\jetified-firebase-database-18.0.1\AndroidManifest.xml:33:17-109
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-database:18.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\018f300ca35f26390150e81b80a8bdec\jetified-firebase-database-18.0.1\AndroidManifest.xml:34:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1854dd4232f0781c0bb78abf88d5ee9b\jetified-firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+82                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+82-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1854dd4232f0781c0bb78abf88d5ee9b\jetified-firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1854dd4232f0781c0bb78abf88d5ee9b\jetified-firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+84        </service>
+85
+86        <activity
+86-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1854dd4232f0781c0bb78abf88d5ee9b\jetified-firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+87            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+87-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1854dd4232f0781c0bb78abf88d5ee9b\jetified-firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+88            android:excludeFromRecents="true"
+88-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1854dd4232f0781c0bb78abf88d5ee9b\jetified-firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+89            android:exported="true"
+89-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1854dd4232f0781c0bb78abf88d5ee9b\jetified-firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+90            android:launchMode="singleTask"
+90-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1854dd4232f0781c0bb78abf88d5ee9b\jetified-firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+91            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+91-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1854dd4232f0781c0bb78abf88d5ee9b\jetified-firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1854dd4232f0781c0bb78abf88d5ee9b\jetified-firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+93        <activity
+93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f411187c1afc497eea4080293f383559\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f411187c1afc497eea4080293f383559\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f411187c1afc497eea4080293f383559\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f411187c1afc497eea4080293f383559\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+97
+98        <provider
+98-->[com.google.firebase:firebase-common:18.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c8386ba135bd4b044d533b0fa6a7873b\jetified-firebase-common-18.0.0\AndroidManifest.xml:12:9-16:39
+99            android:name="com.google.firebase.provider.FirebaseInitProvider"
+99-->[com.google.firebase:firebase-common:18.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c8386ba135bd4b044d533b0fa6a7873b\jetified-firebase-common-18.0.0\AndroidManifest.xml:13:13-77
+100            android:authorities="com.example.DIYSF.firebaseinitprovider"
+100-->[com.google.firebase:firebase-common:18.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c8386ba135bd4b044d533b0fa6a7873b\jetified-firebase-common-18.0.0\AndroidManifest.xml:14:13-72
+101            android:exported="false"
+101-->[com.google.firebase:firebase-common:18.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c8386ba135bd4b044d533b0fa6a7873b\jetified-firebase-common-18.0.0\AndroidManifest.xml:15:13-37
+102            android:initOrder="100" />
+102-->[com.google.firebase:firebase-common:18.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c8386ba135bd4b044d533b0fa6a7873b\jetified-firebase-common-18.0.0\AndroidManifest.xml:16:13-36
+103
+104        <meta-data
+104-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5682a064c572447632fad03b71819032\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+105            android:name="com.google.android.gms.version"
+105-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5682a064c572447632fad03b71819032\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+106            android:value="@integer/google_play_services_version" />
+106-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5682a064c572447632fad03b71819032\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+107    </application>
+108
+109</manifest>
