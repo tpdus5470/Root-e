@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="340dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="7dp"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:rowCount="8">
+
+        <TextView
+            android:id="@+id/Plant_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="이름"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/Plant_bright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Bright"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/Plant_Camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Camera"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Plant_Env"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Env"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/Plant_LedOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Led Off"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/Plant_LedOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Led On"
+            android:textSize="25dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/Plant_Name"
+            app:layout_constraintEnd_toEndOf="@+id/Plant_Env"
+            app:layout_constraintStart_toEndOf="@+id/Plant_Env" />
+
+        <TextView
+            android:id="@+id/Plant_Water"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Water"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Plant_Day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Day"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="none"
+            android:text=""
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/Bright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/Camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:text=""
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/Env"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:text=""
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/LedOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/LedOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/Water"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:text=""
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/Day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:text=""
+            android:textSize="25dp" />
+        <Button
+            android:id="@+id/Revise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:text="적용"
+            android:layout_row="7"/>
+    </GridLayout>
+
+
+
+</LinearLayout>
